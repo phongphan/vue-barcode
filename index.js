@@ -56,9 +56,7 @@ function render(){
     marginBottom: this.marginBottom,
     marginLeft: this.marginLeft,
     marginRight: this.marginRight,
-    valid: valid => {
-      this.valid = valid;
-    }
+    valid: function (valid) { this.valid = valid; }
   });
 }
 

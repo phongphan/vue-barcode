@@ -1,14 +1,14 @@
 {
-  "name": "vue-barcode",
+  "name": "vue-barcode-es5",
   "version": "1.0.6",
-  "description": "",
+  "description": "vue-barcode without fat arrow operator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lindell/vue-barcode.git"
+    "url": "git+https://github.com/phongphan/vue-barcode.git"
   },
   "author": "Johan Lindell",
   "license": "MIT",

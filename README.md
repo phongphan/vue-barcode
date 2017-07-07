@@ -20,7 +20,7 @@ It is a light wrapper for the [JsBarcode](https://github.com/lindell/JsBarcode) 
 
 ## Install
 ````
-npm install vue-barcode
+npm install vue-barcode-es5
 ````
 
 ## Use
