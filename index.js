@@ -47,17 +47,24 @@ function render(){
     font: this.font,
     textAlign: this.textAlign,
     textPosition: this.textPosition,
-    textMargin: this.textMargin,
+    textMargin: __guard(this.textMargin),
     fontSize: this.fontSize,
     background: this.background,
     lineColor: this.lineColor,
-    margin: this.margin,
-    marginTop: this.marginTop,
-    marginBottom: this.marginBottom,
-    marginLeft: this.marginLeft,
-    marginRight: this.marginRight,
+    margin: __guard(this.margin),
+    marginTop: __guard(this.marginTop),
+    marginBottom: __guard(this.marginBottom),
+    marginLeft: __guard(this.marginLeft),
+    marginRight: __guard(this.marginRight),
     valid: function (valid) { this.valid = valid; }
   });
+}
+
+function __guard(value) {
+  if (typeof value === 'undefined')
+    return null;
+  else
+    return value;
 }
 
 module.exports = VueBarcode;
