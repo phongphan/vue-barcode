@@ -44,7 +44,7 @@ var VueBarcode = {
 };
 
 function render(){
-  let klass = '.vue-barcode-element-' + this.mode;
+  var klass = '.vue-barcode-element-' + this.mode;
   JsBarcode(this.$el.querySelector(klass), this.value, {
     format: this.format,
     height: this.height,

@@ -1,6 +1,6 @@
 {
   "name": "vue-barcode-es5",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "vue-barcode without fat arrow operator",
   "main": "index.js",
   "scripts": {
